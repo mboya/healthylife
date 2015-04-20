@@ -1,0 +1,45 @@
+package blackwidow.healthylife;
+
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class HealthyLifeLogin extends ActionBarActivity {
+	TextView error_txt;
+	EditText un, pw;
+	Button login;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_healthy_life_login);
+        
+        error_txt = (TextView)findViewById(R.id.error_txt_al);
+        error_txt.setText("");
+    }
+    
+    public void checkFields(){
+    	un = (EditText)findViewById(R.id.username_et_al);
+    	pw = (EditText)findViewById(R.id.password_et_al);
+    	
+    	if (un.equals("") || pw.equals(""))
+    	{
+    		error_txt.setText("please provide all the details");
+    	}
+    	else if (un.equals("") && pw.equals(""))
+    	{
+    		error_txt.setText("please provide all the details");
+    	}
+    	else
+    	{
+    		
+    	}
+    }
+    
+    new userLogin() extends AsyncTask<String, String, String>{
+    	
+    }
+
+}
