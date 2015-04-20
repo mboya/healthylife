@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;Healthy Life&apos;&#x0A;- Original project: &apos;Healthy Life&apos;&#x0A;- Original elements:&#x0A;     drawable-ldpi&#x0A;     drawable-mdpi&#x0A;     drawable-xhdpi" description="Delete elements" element1="res/drawable-ldpi" element2="res/drawable-mdpi" element3="res/drawable-xhdpi" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1429523701016" subPackages="false" version="1.0"/>
+</session>
